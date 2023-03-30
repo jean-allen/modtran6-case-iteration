@@ -1,0 +1,823 @@
+{
+  "MODTRAN": [
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_300K",
+        "DESCRIPTION": "",
+        "CASE": 0,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 300.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_400K",
+        "DESCRIPTION": "",
+        "CASE": 1,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 400.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_500K",
+        "DESCRIPTION": "",
+        "CASE": 2,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 500.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_600K",
+        "DESCRIPTION": "",
+        "CASE": 3,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 600.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_700K",
+        "DESCRIPTION": "",
+        "CASE": 4,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 700.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_800K",
+        "DESCRIPTION": "",
+        "CASE": 5,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 800.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_900K",
+        "DESCRIPTION": "",
+        "CASE": 6,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 900.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_1000K",
+        "DESCRIPTION": "",
+        "CASE": 7,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 1000.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_1100K",
+        "DESCRIPTION": "",
+        "CASE": 8,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 1100.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_1200K",
+        "DESCRIPTION": "",
+        "CASE": 9,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 1200.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_1300K",
+        "DESCRIPTION": "",
+        "CASE": 10,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 1300.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_1400K",
+        "DESCRIPTION": "",
+        "CASE": 11,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 1400.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    },
+    {
+      "MODTRANINPUT": {
+        "NAME": "constant_10p_1500K",
+        "DESCRIPTION": "",
+        "CASE": 12,
+        "RTOPTIONS": {
+          "MODTRN": "RT_CORRK_FAST",
+          "LYMOLC": false,
+          "T_BEST": false,
+          "IEMSCT": "RT_SOLAR_AND_THERMAL",
+          "IMULT": "RT_DISORT_AT_OBS",
+          "DISALB": true,
+          "NSTR": 8,
+          "SOLCON": 0.0
+        },
+        "ATMOSPHERE": {
+          "M1": "ATM_MIDLAT_SUMMER",
+          "M2": "ATM_MIDLAT_SUMMER",
+          "M3": "ATM_MIDLAT_SUMMER",
+          "M4": "ATM_MIDLAT_SUMMER",
+          "M5": "ATM_MIDLAT_SUMMER",
+          "M6": "ATM_MIDLAT_SUMMER",
+          "CO2MX": 420.0,
+          "C_PROF": 3,
+          "S_UMIX": [ 1.0, 1.0, 1.06, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+          "S_XSEC": [ 1.674, 2.17, 1.0, 1.0, 1.0, 3.758, 1.0, 1.0, 1.0, 1.0, 1.0, 0.629, 1.0]
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_RURAL",
+          "ISEASN": "SEASN_SPRING_SUMMER",
+          "VIS": 23.0
+        },
+        "GEOMETRY": {
+          "ITYPE": 3,
+          "H1ALT": 21.0,
+          "IDAY": 121,
+          "IPARM": 2,
+          "PARM2": 20.0
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",
+          "TPTEMP": 1500.0,
+          "GNDALT": 0.315,
+          "NSURF": 1,
+          "SALBFL": ""
+        },
+        "SPECTRAL": {
+          "V1": 600.0,
+          "V2": 25000.0,
+          "DV": 1.0,
+          "FWHM": 1.0,
+          "YFLAG": "R",
+          "FLAGS": "WGA   T",
+          "MLFLX": 4,
+          "LBMNAM": "T",
+          "BMNAME": "p1_2013"
+        },
+        "FILEOPTIONS": {
+          "SLIPRNT": "savanna.sli",
+          "CSVPRNT": "savanna.csv"
+        }
+      }
+    }
+  ]
+}
