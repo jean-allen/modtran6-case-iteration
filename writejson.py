@@ -6,8 +6,8 @@ import copy
 #### This is the stuff that a user might change
 templateFile = 'template.json'
 editThis = 'TPTEMP'    ## Options: 'TPTEMP'
-lower_bound = 300
-upper_bound = 500
+lower_bound = 650
+upper_bound = 1650
 increment = 50
 
 
@@ -41,7 +41,7 @@ for value in new_values:
     newCase['MODTRANINPUT'][rightKey][editThis] = value
 
     # Change the case name and the output file names
-    newName = base_name + '_' + editThis + '-' + str(value)
+    newName = base_name + '_' + str(value) + 'K'
     newCase['MODTRANINPUT']['NAME'] = newName
     newCase['MODTRANINPUT']['FILEOPTIONS']["SLIPRNT"] = newName + '.sli'
     newCase['MODTRANINPUT']['FILEOPTIONS']["CSVPRNT"] = newName + '.csv'
@@ -50,8 +50,6 @@ for value in new_values:
     allCases.append(newCase)
 
 output = {"MODTRAN": allCases}
-
-print(json.dumps(output, indent=2))
 
 with open("allCases.json", "w") as outfile:
     json.dump(output, outfile, indent=2)
