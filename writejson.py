@@ -22,32 +22,31 @@ data = json.load(f)
 # This will become the output json file with many cases in it :) right now she is empty
 allCases = []
 
-# Use just the first case in the dictionary as a template for the rest
-thisCase = data['MODTRAN'][0]
+for thisCase in data['MODTRAN']:
 
-base_name = thisCase['MODTRANINPUT']['NAME']
+    base_name = thisCase['MODTRANINPUT']['NAME']
 
-for value in new_values:
-    newCase = copy.deepcopy(thisCase)
+    for value in new_values:
+        newCase = copy.deepcopy(thisCase)
 
-    # Find the 'address' of the key we're interested in iterating over
-    for key in newCase['MODTRANINPUT'].keys():
-        if type(newCase['MODTRANINPUT'][key]) != dict:
-            continue
-        if editThis in newCase['MODTRANINPUT'][key]:
-            rightKey = key
+        # Find the 'address' of the key we're interested in iterating over
+        for key in newCase['MODTRANINPUT'].keys():
+            if type(newCase['MODTRANINPUT'][key]) != dict:
+                continue
+            if editThis in newCase['MODTRANINPUT'][key]:
+                rightKey = key
 
-    # Change the key we're interested in to the set value
-    newCase['MODTRANINPUT'][rightKey][editThis] = value
+        # Change the key we're interested in to the set value
+        newCase['MODTRANINPUT'][rightKey][editThis] = value
 
-    # Change the case name and the output file names
-    newName = base_name + '_' + str(value) + 'K'
-    newCase['MODTRANINPUT']['NAME'] = newName
-    newCase['MODTRANINPUT']['FILEOPTIONS']["SLIPRNT"] = newName + '.sli'
-    newCase['MODTRANINPUT']['FILEOPTIONS']["CSVPRNT"] = newName + '.csv'
+        # Change the case name and the output file names
+        newName = base_name + '_' + str(value) + 'K'
+        newCase['MODTRANINPUT']['NAME'] = newName
+        newCase['MODTRANINPUT']['FILEOPTIONS']["SLIPRNT"] = newName + '.sli'
+        newCase['MODTRANINPUT']['FILEOPTIONS']["CSVPRNT"] = newName + '.csv'
 
-    # Add the case we just built to our list
-    allCases.append(newCase)
+        # Add the case we just built to our list
+        allCases.append(newCase)
 
 output = {"MODTRAN": allCases}
 
